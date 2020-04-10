@@ -1,19 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          ObjCUI
-        </a>
+    <div>
+      <header className="navigation">
+        <p className="logo">ObjC<span style={{color: 'rgb(221,78,91)'}}>UI</span></p>
       </header>
     </div>
   );
