@@ -33,7 +33,6 @@
 
 .introduction .desc {
   color: white;
-  font-family: 'zongyi';
   padding-top: 16px;
   font-size: 24px;
   width: 60%;
@@ -44,7 +43,6 @@
 .introduction .get-start {
   margin-top: 16px;
   padding: 8px;
-  font-family: 'zongyi';
   font-size: 18px;
   background-color: rgb(88, 180, 222);
   outline: none;
