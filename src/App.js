@@ -1,12 +1,17 @@
 import React from 'react';
+import Introduction from './Introduction';
+import Logo from './Logo';
 import './App.css';
+import Samples from './Sample';
 
 function App() {
   return (
     <div>
       <header className="navigation">
-        <p className="logo">ObjC<span style={{color: 'rgb(221,78,91)'}}>UI</span></p>
+        <Logo fontSize='24px' bold={true}/>
       </header>
+      <Introduction />
+      <Samples />
     </div>
   );
 }
