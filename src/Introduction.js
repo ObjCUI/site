@@ -8,7 +8,9 @@ function Introduction() {
             <p className="desc">
                 A declarative, data-driven framework for building CocoaTouch user interface.
             </p>
-            <button className="get-start">Get Stared</button>
+            <button className="get-start" onClick={() => {
+                window.location = "https://objcui.github.io/docs/";
+            }}>Get Stared</button>
         </div>
     );
 }
